@@ -1,0 +1,21 @@
+# robots.txt for Petrichor Gardening & Irrigation Services
+
+# Allow all crawlers access to all content
+User-agent: *
+Allow: /
+
+# Disallow admin areas and authentication pages
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+
+# Prevent crawling of any temporary or development pages
+Disallow: /dev/
+Disallow: /test/
+Disallow: /temp/
+
+# Location of sitemap for better indexing
+Sitemap: https://petrichor-gardening.github.io/sitemap.xml
+
+# Crawl-delay directive for bots to reduce server load (optional)
+# Crawl-delay: 10
